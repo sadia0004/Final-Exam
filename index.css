@@ -87,7 +87,7 @@ button {
 #displayArea {
     margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, minmax(200px, 1fr));;
     gap: 20px;
     padding: 10px;
     max-width: 1200px;
@@ -103,8 +103,7 @@ button {
 
 .innerdivstyle img {
     width: 100%;
-    height: auto;
-    max-height: 250px;
+    height: auto; 
 }
 
 #showAllButton {
