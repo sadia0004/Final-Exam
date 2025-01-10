@@ -78,7 +78,7 @@ footer {
 
 button {
     padding: 10px 20px;
-    margin: 10px;
+    margin: 30px;
     background-color: slateblue;
     color: white;
     border: none;
@@ -105,4 +105,51 @@ button {
     width: 100%;
     height: auto;
     max-height: 250px;
+}
+
+#showAllButton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: slateblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    text-align: center;
+    
+}
+
+#showAllButton:hover {
+    background-color: darkslateblue;
+}
+
+
+
+
+#content-area {
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: slateblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+button:hover {
+    background-color: darkslateblue;
+}
+#paragraph{
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+   font-family: cursive;
+   color: rgb(35, 5, 94);
+
 }
