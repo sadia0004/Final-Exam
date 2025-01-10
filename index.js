@@ -34,7 +34,7 @@ function display(meals, showAll) {
             <p><strong>Meal ID:</strong> ${meal.idMeal}</p>
             <p><strong>Meal Name:</strong> ${meal.strMeal}</p>
             <p><strong>Meal Title:</strong> ${meal.strCategory}</p>
-            <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
+            <img style="width:400px; height:400px" src="${meal.strMealThumb}" alt="${meal.strMeal}">
             <p><strong>Cooking Instructions:</strong> ${meal.strInstructions}</p>
             <p><a href="${meal.strYoutube}" target="_blank" rel="noopener noreferrer">Watch Recipe</a></p>
         `;
