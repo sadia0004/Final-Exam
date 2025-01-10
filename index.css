@@ -52,6 +52,10 @@ nav ul li a:hover {
     padding: 50px 20px;
     flex: 1; 
 }
+.in{
+    width:400px;
+    height:500px;
+}
 
 footer {
     background-color: brown;
