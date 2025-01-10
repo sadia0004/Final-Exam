@@ -46,3 +46,18 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+.main-content {
+    
+    padding: 50px 20px;
+    flex: 1; 
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
